@@ -1,8 +1,11 @@
 aid: edge-sound-research
 name: EDGE Sound Research
-description: EDGE Sound Research is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: EDGE Sound Research is an audio technology company building intelligent audio infrastructure,
+  as stated by its own tagline. Backed by Techstars, the company operates from edgesoundresearch.com. As
+  of this enrichment pass no public developer portal, API, SDK, CLI, MCP server, or machine-readable
+  specification (OpenAPI/AsyncAPI) was found on its web presence, and the site is a fully client-rendered
+  Next.js application. This profile captures the company's identity and web/domain security posture within
+  the API Evangelist network pending any future developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/edge-sound-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +13,29 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.edgesoundresearch.com/favicon.png
 tags:
 - Company
+- Audio
+- Sound
+- Audio Infrastructure
+- Audio Technology
+- Hardware
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/edge-sound-research-domain-security.yml
 - type: Website
   url: https://edgesoundresearch.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
